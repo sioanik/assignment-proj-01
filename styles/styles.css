@@ -74,11 +74,13 @@
     margin: 120px 140px 0px 140px;
     width: 1320px;
     height: 600px;
-    /* display: flex; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#img-2024{
-
+#img-2024 {
+    margin: 68.11px 138px 67.23px -460px;
 }
 
 #party-text1 {
@@ -89,6 +91,7 @@
     line-height: 88px;
     letter-spacing: 7.04px;
     padding: 126px 552px 0px 126px;
+    width: 642px;
 }
 
 #party-text2 {
@@ -108,4 +111,9 @@
     font-weight: 700;
     text-transform: uppercase;
     padding: 0px 1059px 142px 158px;
+}
+
+.join-link{
+    color: #FFF;
+    text-decoration: none ;
 }
