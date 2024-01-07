@@ -26,3 +26,45 @@
     line-height: 95px;
     padding: 0px 344px 177px 344px;
 }
+
+
+/* Discount section style */
+.dis-sec {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+#dis-text1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 609px 48px 608px;
+}
+
+#dis-text2 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 601px 16px 602px;
+}
+
+#dis-text3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 595px 0px 595px;
+}
+
+.dis-sec {
+    background: #FFF;
+}
+
+.img-hny {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 48px 398.1px 0px 399px;
+}
+
+/* Party section time */
+
