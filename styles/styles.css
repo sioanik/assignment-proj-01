@@ -303,16 +303,84 @@
     border-radius: ;
 }
 
-#sale-sec-imgd1 {
+#sale-sec-img1 {
     margin-bottom: -5px;
-    image-rendering:crisp-edges;
+    image-rendering: crisp-edges;
 }
-    
-#sale-sec-imgd2 {
+
+#sale-sec-img2 {
     margin-left: -140px;
     z-index: 1;
 }
 
-#sale-sec-imgd3 {
+#sale-sec-img3 {
     margin-left: -100px
+}
+
+
+/* Portfolio section start */
+
+
+.port-sec {
+    width: 1600px;
+    height: 7335px;
+    margin: 120px 140px;
+}
+
+.port-sec-text p {
+    margin: 0;
+}
+
+#port-sec-text1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#port-sec-text2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 16px 0px 22px 0px;
+    width: 896px;
+}
+
+#port-sec-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 48px;
+    margin: 0px 564px 0px 0px;
+}
+
+
+/* Portfolio > IMAGE section start */
+
+.port-img-cont img {
+    width: 424px;
+    height: 450px;
+    padding: 24px;
+}
+
+.port-sec-row1 {
+    display: flex;
+
+}
+
+#ps-r1-img1{
+    margin-left: -24px;
+}
+
+.port-sec-row2 {
+    display: flex;
+
+}
+
+#ps-r2-img1{
+    margin-left: -24px;
 }
