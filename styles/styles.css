@@ -240,11 +240,14 @@
 /* Holiday sale section start */
 
 .sale-sec {
-    width: 1600px;
-    height: 7335px;
+    width: 1320px;
+    height: 986px;
+    margin: 120px 140px;
+    align-content: center;
 
 }
-.sale-sec p{
+
+.sale-sec p {
     margin: 0;
 }
 
@@ -282,6 +285,34 @@
     font-weight: 500;
     line-height: 32px;
     width: 1068px;
-    padding: 0px 266px;
+    padding: 0px 126px 0px 126px;
 }
 
+/* Holiday sale section img start */
+
+.sale-sec-img {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-size: 1320px 229px;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+    display: flex;
+    padding-top: 64px;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    position: absolute;
+    border-radius: ;
+}
+
+#sale-sec-imgd1 {
+    margin-bottom: -5px;
+    image-rendering:crisp-edges;
+}
+    
+#sale-sec-imgd2 {
+    margin-left: -140px;
+    z-index: 1;
+}
+
+#sale-sec-imgd3 {
+    margin-left: -100px
+}
