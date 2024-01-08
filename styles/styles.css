@@ -235,3 +235,53 @@
 #offer-col3-img {
     padding: 43px 136px 0px 0px;
 }
+
+
+/* Holiday sale section start */
+
+.sale-sec {
+    width: 1600px;
+    height: 7335px;
+
+}
+.sale-sec p{
+    margin: 0;
+}
+
+#sale-sec-text1 {
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#sale-sec-text2 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 16px 0px 28px 0px;
+
+}
+
+
+#sale-sec-text2-style2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#sale-sec-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    padding: 0px 266px;
+}
+
