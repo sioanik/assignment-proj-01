@@ -323,7 +323,6 @@
 
 .port-sec {
     width: 1600px;
-    height: 7335px;
     margin: 120px 140px;
 }
 
@@ -367,13 +366,13 @@
     padding: 24px;
 }
 
+.port-img-cont img:first-child {
+    padding-left: 0;
+}
+
 .port-sec-row1 {
     display: flex;
 
-}
-
-#ps-r1-img1{
-    margin-left: -24px;
 }
 
 .port-sec-row2 {
@@ -381,6 +380,88 @@
 
 }
 
-#ps-r2-img1{
-    margin-left: -24px;
+
+
+/* Newsletter section start  */
+
+.sub-sec {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin: 120px 140px
+}
+
+.sub-sec p {
+    margin: 0;
+}
+
+#ss-img {
+    padding: 80px 585px 40px 585px;
+}
+
+
+
+#ss-t1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+#ss-t2 {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 22px 212px 0px 212px;
+}
+
+.sub-sec-btn {
+    width: 648px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 48px 336px 80px 336px;
+}
+
+#email-input {
+    color: rgba(7, 2, 17, 0.30);
+    
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 438px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    border-color: transparent;
+    background: #FFF;
+    
+}
+
+#sub-btn {
+    color: #FFF;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    border-color: transparent;
+    background: #F00;
+    width: 210px;
+    height: 78px;
+}
+
+#email-input::placeholder{
+    text-align: left;
+    text-indent: 30px;
 }
