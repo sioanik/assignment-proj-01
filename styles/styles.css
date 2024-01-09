@@ -81,7 +81,12 @@
 
 #img-2024 {
     margin: 68.11px 138px 67.23px -460px;
+    transition: transform 0.5s ease-out;
 }
+#img-2024:hover{
+    transform: scale(1.2) rotate(-10deg);
+}
+
 
 #party-text1 {
     color: #FFF;
@@ -320,12 +325,12 @@
     margin-left: -60px;
     margin-top: 70px;
     z-index: 1;
-    transition: transform 1s ease-in-out;
-    transform-origin:center right;
+    transition: transform 0.5s ease-out;
+    transform-origin:top right;
 }
 
 #sale-sec-img2:hover{
-    transform:scale(1.4);
+    transform:scale(1.4) rotate(30deg);
 }
 
 
